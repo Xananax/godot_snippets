@@ -14,7 +14,7 @@ To this end:
 
 Feel free to copy the `_template` directory found in `/utils` and use it as a basis
 
- ## List of available snippets
+## List of available snippets
 
 
  - [custom_error](./custom_error)

@@ -26,5 +26,5 @@ EXREADME="../examples/README.md"
 rm -rf $EXREADME
 touch $EXREADME
 cat ../examples/contribute.md > $EXREADME
-echo -e "\n ## List of available snippets" >> $EXREADME
+echo -e "\n## List of available snippets" >> $EXREADME
 echo -e $LINKS >> $EXREADME
