@@ -1,4 +1,3 @@
-# this file contains code that runs your example
 extends Node2D
 
 onready var emitter = preload("custom_signals.gd").new()

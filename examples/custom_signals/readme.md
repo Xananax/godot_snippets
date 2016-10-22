@@ -15,7 +15,6 @@ func emit_custom_signal_with_params(a,b):
 ## Example of Usage
 
 ```gdscript
-# this file contains code that runs your example
 extends Node2D
 
 onready var emitter = preload("custom_signals.gd").new()
