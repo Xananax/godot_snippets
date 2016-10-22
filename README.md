@@ -10,3 +10,26 @@ The project itself is somewhat of a demonstration of background loading and stru
 ## Contribute
 
 Instructions on how to contribute snippets are in [./examples](./examples).
+
+
+## Endgame:
+
+The project aims to build little snippets that will allow to create a template for games.
+
+Snippets to come should include:
+
+- [] Intro animation
+- [] Menu System:
+	- [] Key re-binding
+	- [] save files management
+	- [] resizing interface
+	- [] level choice
+	- [] pausing the game
+- [] Levels
+	- [] 2 levels, no tilemaps, no collision (there are a million examples of that)
+	- [] global state for levels completion
+	- [] health system
+	- [] animations system
+		- [] blink
+		- [] screen shake
+	- [] stretching game on different resolutions
