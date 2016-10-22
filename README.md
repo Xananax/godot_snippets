@@ -9,4 +9,4 @@ The project itself is somewhat of a demonstration of background loading and stru
 
 ## Contribute
 
-Instructions on how to contribute snippets are in `./examples`.
+Instructions on how to contribute snippets are in [./examples](./examples).

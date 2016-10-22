@@ -12,4 +12,4 @@ To this end:
 - an `engine.cfg` file must be present, containing, at least, the project's name and entry point
 - you can add an `author` field to the engine.cfg file
 
-Feel free to copy the `_template` directory found in `/utils` and use it as a basis
+Feel free to copy the [_template](../utils/_template) directory found in [/utils](../utils) and use it as a basis
