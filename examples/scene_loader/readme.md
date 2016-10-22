@@ -1,5 +1,6 @@
 # scene_loader
 ## Example Implementation
+
 ```gdscript
 ############################################################
 # SCENE LOADER
@@ -189,8 +190,10 @@ class Loader extends Node:
 		46: "ERR_HELP",
 		47: "ERR_BUG",
 		49: "ERR_WTF"
-	}```
+	}
+```
 ## Example of Usage
+
 ```gdscript
 extends Node2D
 
@@ -219,4 +222,5 @@ func on_progress(percent):
 	Text.set_text(str(percent*100)+'%')
 
 func on_error(err):
-	pass```
+	pass
+```

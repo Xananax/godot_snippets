@@ -9,12 +9,12 @@ for dir in ../examples/*/; do
 		touch "$readme"
 		echo "# $base" > "$readme"
 		echo "## Example Implementation" >> "$readme"
-		echo "\`\`\`gdscript" >> "$readme"
+		echo -e "\n\`\`\`gdscript" >> "$readme"
 		cat $script >> "$readme"
-		echo "\`\`\`" >> "$readme"
+		echo -e "\n\`\`\`" >> "$readme"
 		echo "## Example of Usage" >> "$readme"
-		echo "\`\`\`gdscript" >> "$readme"
+		echo -e "\n\`\`\`gdscript" >> "$readme"
 		cat $usage_script >> "$readme"
-		echo "\`\`\`" >> "$readme"
+		echo -e "\n\`\`\`" >> "$readme"
 	fi
 done

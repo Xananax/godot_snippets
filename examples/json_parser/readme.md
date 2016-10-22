@@ -1,5 +1,6 @@
 # json_parser
 ## Example Implementation
+
 ```gdscript
 # parses JSON and returns results as an object
 # arguments:
@@ -59,8 +60,10 @@ var file_errors = [
 	"ERR_FILE_CORRUPT",
 	"ERR_FILE_MISSING_DEPENDENCIES",
 	"ERR_FILE_EOF"
-]```
+]
+```
 ## Example of Usage
+
 ```gdscript
 extends Node2D
 
@@ -74,4 +77,5 @@ func _ready():
 
 func on_button_press():
 	var data = JSON.parse_json(dir+"example.json")
-	label.set_text(str(data))```
+	label.set_text(str(data))
+```

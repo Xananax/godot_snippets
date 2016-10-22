@@ -1,5 +1,6 @@
 # directory_reader
 ## Example Implementation
+
 ```gdscript
 # Reads a directory and calls functions on results
 # those functions should return a result which will be appended to
@@ -99,8 +100,10 @@ func parse_dir(path,name):
 		"size":0
 	}
 	return data
-	```
+	
+```
 ## Example of Usage
+
 ```gdscript
 
 extends Node
@@ -166,4 +169,5 @@ func on_selected(idx):
 	var path = selected.path
 	var type = selected.type
 	if type == DirectoryReader.TYPE_DIRECTORY:
-		read_files(path)```
+		read_files(path)
+```

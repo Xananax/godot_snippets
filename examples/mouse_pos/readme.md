@@ -1,5 +1,6 @@
 # mouse_pos
 ## Example Implementation
+
 ```gdscript
 
 extends Node2D
@@ -13,8 +14,10 @@ func _process(delta):
 #method 2:
 func _input(event):
 	if event.type == InputEvent.MOUSE_MOTION:
-		thing.set_global_pos(event.pos)```
+		thing.set_global_pos(event.pos)
+```
 ## Example of Usage
+
 ```gdscript
 
 extends Node2D
@@ -25,4 +28,5 @@ func _ready():
 	set_process(true)
 	
 func _process(delta):
-	logo.set_global_pos(get_viewport().get_mouse_pos())```
+	logo.set_global_pos(get_viewport().get_mouse_pos())
+```

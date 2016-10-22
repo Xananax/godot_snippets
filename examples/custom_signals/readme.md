@@ -1,5 +1,6 @@
 # custom_signals
 ## Example Implementation
+
 ```gdscript
 signal custom_signal
 signal custom_signal_with_params(a,b)
@@ -9,8 +10,10 @@ func emit_custom_signal():
 	emit_signal("custom_signal")
 	
 func emit_custom_signal_with_params(a,b):
-	emit_signal("custom_signal_with_params",a,b)```
+	emit_signal("custom_signal_with_params",a,b)
+```
 ## Example of Usage
+
 ```gdscript
 # this file contains code that runs your example
 extends Node2D
@@ -33,4 +36,5 @@ func _on_Button1_pressed():
 
 func _on_Button2_pressed():
 	emitter.emit_custom_signal_with_params("a","b")
+
 ```
