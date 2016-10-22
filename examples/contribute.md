@@ -13,13 +13,3 @@ To this end:
 - you can add an `author` field to the engine.cfg file
 
 Feel free to copy the `_template` directory found in `/utils` and use it as a basis
-
- ## List of available snippets
-
-
- - [custom_error](./custom_error)
- - [custom_signals](./custom_signals)
- - [directory_reader](./directory_reader)
- - [json_parser](./json_parser)
- - [mouse_pos](./mouse_pos)
- - [scene_loader](./scene_loader)

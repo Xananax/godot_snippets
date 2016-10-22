@@ -1,3 +1,4 @@
+LINKS="\n"
 for dir in ../examples/*/; do
 	no_backslash=${dir%*/}
     	base=${no_backslash##*/}
@@ -16,5 +17,14 @@ for dir in ../examples/*/; do
 		echo -e "\n\`\`\`gdscript" >> "$readme"
 		cat $usage_script >> "$readme"
 		echo -e "\n\`\`\`" >> "$readme"
+		LINKS="$LINKS\n - [$base](./$base)"
 	fi
 done
+
+EXREADME="../examples/README.md"
+
+rm -rf $EXREADME
+touch $EXREADME
+cat ../examples/contribute.md > $EXREADME
+echo -e "\n ## List of available snippets" >> $EXREADME
+echo -e $LINKS >> $EXREADME
